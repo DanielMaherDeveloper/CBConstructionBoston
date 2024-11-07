@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family:  "Raleway", sans-serif;
+    background: #262626;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+header{
+    height: 700px;
+    background-image: url('https://static.wixstatic.com/media/9f728c_aa0f7a41a9c4453d9b39dc3219f1701e~mv2.jpg/v1/fill/w_2048,h_1302,al_c,q_90,enc_auto/9f728c_aa0f7a41a9c4453d9b39dc3219f1701e~mv2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.hero{
+    text-align: center;
+    font-size: 1.5rem;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero div h1{
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}
+
+#logo{
+    text-align: left;
+    width: 100px;
+    padding: 20px;
+}
+
+.bold {font-weight: 700;}
+
+nav > ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline;
+    text-transform: uppercase;
+    margin: 0 25px;
+
+}
+
+#topmenu{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+}
+
+#topmenu nav{
+margin-left: auto;}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    border: 1px solid #9A8A78;
+    margin: 75px;
+}
+
+#services-img img{
+    object-fit: contain;
+    max-width: 100%
+}
+
+#services-info{
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0 auto;
+}
+
+.ltext {
+    font-size: 1.5rem;
+    text-align: center;
+}

@@ -60,26 +60,99 @@ nav li{
 #topmenu nav{
 margin-left: auto;}
 
-.container{
+.home-main-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 1fr);
     border: 1px solid #9A8A78;
     margin: 75px;
-}
+    grid-template-areas: "p p i i"
+"p p i i"  
+       "s s s s"
+       "a a ai ai"
+"a a ai ai"  ;
+    margin-bottom: 100px;
+    }
 
 #services-img img{
     object-fit: contain;
     max-width: 100%
 }
 
+#services-img{
+    grid-area: p;
+}
 #services-info{
     font-size: 16px;
     line-height: 32px;
-    margin: 0 auto;
-}
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+grid-area: i;
+margin-left: 40px;}
 
 .ltext {
-    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 40px;
     text-align: center;
+    line-height: 3rem;
 }
+
+#sub-info{
+    grid-area:s;
+    font-size: 1.5em;
+    text-align: center;
+    display: flex;
+}
+
+#sub-info div{
+    flex-direction: row;
+    text-align: center;
+    border: 1px solid #9A8A78;
+    flex-grow: 1;
+    padding: 80px 40px;
+    min-width: 0;
+    flex-basis: 100%;
+}
+
+#sub-info div i{
+  font-size: 4rem;
+  display: block;
+  padding: 30px;
+  color: #9A8A78;
+}
+
+
+.button{
+    padding: 15px;
+    background-color: #9A8A78;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.button a{
+    color: #262626;
+    text-decoration: none;
+    margin: 0 auto;}
+
+#about-us{
+    grid-area: a;
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+#about-us-image{
+grid-area: ai;
+}
+
+#about-us-image img{
+max-width: 100%;
+}
+
+footer{
+    color: #9A8A78;
+    margin: 0 75px;
+    font-size: 24px;
+}
+

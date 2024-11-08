@@ -154,5 +154,18 @@ footer{
     color: #9A8A78;
     margin: 0 75px;
     font-size: 24px;
+    display: flex;
 }
 
+footer i{
+    width: 40px;
+}
+
+footer span{
+    display: block;
+    margin: 20px;
+}
+
+footer form *{
+    display: block
+}

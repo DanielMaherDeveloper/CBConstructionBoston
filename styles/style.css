@@ -270,6 +270,11 @@ footer form *{
     .hero{
         height: 400px;
     }
+}
+
+
+form{
+    display: none;
 }}
 
 /* Show menu when active */

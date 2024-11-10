@@ -12,7 +12,10 @@
 <header>
     <div id="topmenu">
         <div id="logo"><span class="bold">CB </span><span>Construction Boston</span></div>
-        <nav>
+        <div id="hamburger" onclick="toggleMenu()">☰</div>
+
+        <nav id="nav-menu">
+            
             <ul>
                 <a><li>Home</li></a>
                 <a><li>Services</li></a>
@@ -90,4 +93,10 @@
             <button type="submit">Send</button>
           </form>
     </div>
+    <script>
+    
+    function toggleMenu() {
+        const menu = document.getElementById('nav-menu');
+        menu.classList.toggle('active');}
+        </script>
 </footer>

@@ -9,6 +9,10 @@ body{
 
 }
 
+*{
+    box-sizing: border-box;
+}
+
 header{
     height: 700px;
     background-image: url('https://static.wixstatic.com/media/9f728c_aa0f7a41a9c4453d9b39dc3219f1701e~mv2.jpg/v1/fill/w_2048,h_1302,al_c,q_90,enc_auto/9f728c_aa0f7a41a9c4453d9b39dc3219f1701e~mv2.jpg');
@@ -174,7 +178,6 @@ footer form *{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333;
     color: #fff;
 }
 
@@ -230,10 +233,48 @@ footer form *{
     header{
         height: 500px;
     }
+    .home-main-container{
+        flex-wrap: wrap;
+
+        margin: 20px;
+        grid-template-areas: "p p p p"
+    "i i i i"  
+           "s s s s"
+           "a a ai ai"
+    "a a ai ai"  ;
+
+    #sub-info div{
+    grid-area: none;
+    padding: 40px 20px;
+    width: 50%;
+    
+
+    }
+
+    #sub-info{
+        flex-direction: column;
+    }
+#sub-info div:nth-child(odd){
+    align-self: start;
 }
+#sub-info div:nth-child(even){
+    align-self: end;
+}
+
+
+
+    #sub-info i{
+        font-size: 2em;
+    }
+
+    .hero{
+        height: 400px;
+    }
+}}
 
 /* Show menu when active */
 #nav-menu.active ul {
     display: flex;
     border: 1px solid white;
+    
 }

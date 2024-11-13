@@ -281,8 +281,8 @@ footer div{
         grid-template-areas: "p p p p"
     "i i i i"  
            "s s s s"
-           "a a ai ai"
-    "a a ai ai"  ;
+           "a a a a"
+    "ai ai ai ai"  ;
 
     #sub-info div{
     grid-area: none;
@@ -316,12 +316,22 @@ footer div{
 
 footer{
     flex-direction: column;
+    margin: 0 auto;
 
 }
 
 footer div{
     padding: 0 10px;
-}}
+}
+
+#services-info{
+    padding-left: 20px;
+    margin-left: 0;
+}
+
+.hero{
+    height: 300px;
+}
 
 /* Show menu when active */
 #nav-menu.active ul {

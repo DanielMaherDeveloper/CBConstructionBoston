@@ -73,7 +73,6 @@ margin-left: auto;}
        "s s s s"
        "a a ai ai"
 "a a ai ai"  ;
-    margin-bottom: 100px;
     }
 
 #services-img img{
@@ -162,6 +161,7 @@ footer{
     height: 400px;
     margin-bottom: 100px;
     max-width: 100%;
+    padding-top: 50px;
 }
 
 footer h2{
@@ -277,7 +277,7 @@ footer div{
     .home-main-container{
         flex-wrap: wrap;
 
-        margin: 20px;
+        margin:0 20px;
         grid-template-areas: "p p p p"
     "i i i i"  
            "s s s s"
@@ -338,4 +338,40 @@ footer div{
     display: flex;
     border: 1px solid white;
     
+}
+
+}
+
+/* Updated Footer Styling */
+footer {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+    background-color: #1E1E1E;
+}
+
+footer h2 {
+    color: #D4AF37;
+    text-align: center;
+    font-weight: 600;
+}
+
+footer form label {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+
+
+footer form button[type="submit"]:hover {
+    background-color: #C9A533;
+}
+
+footer i {
+    color: #D4AF37;
+    transition: color 0.3s;
+}
+
+footer i:hover {
+    color: #C9A533;
 }

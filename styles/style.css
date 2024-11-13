@@ -78,7 +78,8 @@ margin-left: auto;}
 
 #services-img img{
     object-fit: contain;
-    max-width: 100%
+    width: 100%;
+    height: 100%;
 }
 
 #services-img{
@@ -150,7 +151,7 @@ grid-area: ai;
 }
 
 #about-us-image img{
-max-width: 100%;
+width: 100%;
 }
 
 footer{
@@ -158,6 +159,41 @@ footer{
     margin: 0 75px;
     font-size: 24px;
     display: flex;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+footer h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+footer form input{
+    width: 100%;
+
+
+}
+
+footer form label{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer form input{
+    background-color: #9A8A78;
+    border-radius: 5px;
+    height: 2rem;
+    width: 300px;
+    margin: 0 40px;
+    border: 1px solid #9A8A78;
+}
+
+footer form button[type=submit]{
+    background-color: #a45700;
+    border-radius: 20px;
+    height: 2rem;
+    width: 150px;
+    border: 1px solid #9A8A78;
+    margin: 20px auto;
 }
 
 footer i{
@@ -171,6 +207,10 @@ footer span{
 
 footer form *{
     display: block
+}
+
+footer div{
+    padding: 0 50px;
 }
 
 #topmenu {
@@ -273,8 +313,9 @@ footer form *{
 }
 
 
-form{
-    display: none;
+footer{
+    flex-direction: column;
+
 }}
 
 /* Show menu when active */

@@ -155,12 +155,13 @@ width: 100%;
 }
 
 footer{
-    color: #9A8A78;
+    color: white;
     margin: 0 75px;
     font-size: 24px;
     display: flex;
     height: 400px;
     margin-bottom: 100px;
+    max-width: 100%;
 }
 
 footer h2{
@@ -179,20 +180,20 @@ footer form label{
 }
 
 footer form input{
-    background-color: #9A8A78;
+    background-color: white;
     border-radius: 5px;
     height: 2rem;
-    width: 300px;
+    max-width: 300px;
     margin: 0 40px;
     border: 1px solid #9A8A78;
 }
 
 footer form button[type=submit]{
-    background-color: #a45700;
-    border-radius: 20px;
-    height: 2rem;
+    background-color: white;
+    border-radius: 2px;
+    height: 3rem;
     width: 150px;
-    border: 1px solid #9A8A78;
+    border: 1px solid white;
     margin: 20px auto;
 }
 
@@ -316,6 +317,10 @@ footer div{
 footer{
     flex-direction: column;
 
+}
+
+footer div{
+    padding: 0 10px;
 }}
 
 /* Show menu when active */

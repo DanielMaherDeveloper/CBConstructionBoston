@@ -179,13 +179,15 @@ footer form input{
 
 footer form label{
     text-align: center;
-    margin-bottom: 10px;
+    margin-top: 20px;
+
 }
 
-footer form input{
+#contact-form input{
     background-color: #262626;
     height: 2rem;
-    max-width: 300px;
+    max-width: 500px;
+    margin-bottom: 10px;
     padding-top: 10px;
     margin: 10px 40px;
     border: 0px solid black;
@@ -193,12 +195,19 @@ footer form input{
     color: #9A8A78;
     font-weight: 300;
     line-height: 2em;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 form textarea:focus,form input:focus{
     outline: none;
     
+}
+
+.thank-you{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 200px;
 }
 
 
@@ -297,7 +306,7 @@ footer div{
            "s s s s"
            "a a a a"
     "ai ai ai ai"  ;
-
+    }
     #sub-info div{
     grid-area: none;
     padding: 40px 20px;
@@ -305,6 +314,8 @@ footer div{
     
 
     }
+
+
 
     #sub-info{
         flex-direction: column;
@@ -332,6 +343,10 @@ footer{
     flex-direction: column;
     margin: 0 auto;
 
+}
+
+.thank-you{
+    margin-top: 20px !important;
 }
 
 footer div{
@@ -389,3 +404,11 @@ footer i {
 footer i:hover {
     color: #C9A533;
 }
+
+#contact-form {
+    flex: 1 !important
+}
+
+#contact-form input{
+    margin: 0 auto;
+    }

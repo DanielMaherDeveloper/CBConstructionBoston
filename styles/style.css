@@ -306,7 +306,7 @@ footer div{
            "s s s s"
            "a a a a"
     "ai ai ai ai"  ;
-    }
+
     #sub-info div{
     grid-area: none;
     padding: 40px 20px;
@@ -346,7 +346,7 @@ footer{
 }
 
 .thank-you{
-    margin-top: 20px !important;
+    padding-top: 20px;
 }
 
 footer div{
